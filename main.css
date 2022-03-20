@@ -55,7 +55,7 @@ body{
     display: none; 
     min-width: 160px;
     position: absolute;
-    background-color: #fff;
+    background-color: #FFB6C1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 #nav .subnav a{
@@ -117,11 +117,12 @@ body{
     list-style: none;
     padding: 6px 10px;
     font-size: 13pt;
+    cursor: pointer;
 }
 #container li:hover{
-    list-style: none;
-    padding: 6px 10px;
-    font-size: 13pt;
+    color: red;
+    font-style: 20px;
+    font-weight: bold;
 }
 .card{
     width: 263px;

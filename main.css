@@ -206,17 +206,19 @@ body{
 .card button:hover{
     background: #FF7F50    ;
 }
-/* .footer{
-    width: 80%;
-    height: 60px;
-    padding-top: 120px;
-    margin: 0 auto;
+.footer{
+    position: absolute;
+    top:1200px;
+    min-width: 100vw;
+    height: 40px;
+    background-color:rgb(227, 236, 245, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; 
+    z-index: 20;
 }
 .footer span{
     font-size: 13pt;
     color: #6E7B8B;
-}  */
+} 
